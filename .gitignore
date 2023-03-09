@@ -1,0 +1,7 @@
+
+results
+__pycache__
+sdf3dformer.egg-info
+build
+*.so
+*.egg-info/

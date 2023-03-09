@@ -1,0 +1,25 @@
+n_imgs_train: 20
+n_imgs_val: 20
+voxel_size: 0.04
+crop_size_train: [96, 96, 48]
+crop_size_val: [96, 96, 48]
+attn_heads: 2
+attn_layers: 2
+use_proj_occ: False
+
+ckpt: null
+seed: 11
+use_amp: True
+
+initial_epochs: 350
+initial_lr: .001
+initial_batch_size: 2
+
+finetune_epochs: 5650
+finetune_lr: .0001
+finetune_batch_size: 2
+
+wandb_project_name: "former3d"
+
+scannet_dir: "/datasets/scannet/scannet_vortx"
+tsdf_dir: "/datasets/scannet/tsdf_vortx"
